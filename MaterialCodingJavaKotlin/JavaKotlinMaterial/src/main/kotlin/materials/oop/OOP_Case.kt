@@ -1,4 +1,4 @@
-package oop
+package materials.oop
 
 fun main() {
     // Define object class "Person"

@@ -1,4 +1,4 @@
-package oop
+package materials.oop
 
 fun main() {
     //Create variable to data attribute 'data person'
