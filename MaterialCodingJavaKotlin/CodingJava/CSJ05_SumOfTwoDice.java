@@ -14,25 +14,22 @@ public class CSJ05_SumOfTwoDice {
         // Show header
         System.out.print("+ |");
         for (int i = 1; i <= dice.length; i++) {
-            System.out.print(" "+ i + " ");
+            System.out.printf(" %2d", i);
         }
         System.out.println();
-
         // Set Array Two Dice
         for (int x = 1; x <= dice.length; x++) {
             for (int y = 1; y <= dice[x-1].length; y++) {
                 dice[x-1][y-1] = x + y;
             }
         }
-
         // Show Sum Of Two Dice
         for (int x = 0; x < dice.length; x++) {
             System.out.print((x+1) + " |");
             for (int y = 0; y < dice[x].length; y++) {
-                System.out.print(" "+ dice[x][y] +" ");
+                System.out.printf(" %2d", dice[x][y]);
             }
             System.out.println();
         }
     }
-
 }

@@ -4,7 +4,7 @@ public class CSJ03_RectangleApp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Input s: ");
+        System.out.print("Input s: ");
         int s = input.nextInt();
         CreateRectangle(s);
     }
